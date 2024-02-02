@@ -7,6 +7,7 @@
   <maintainer email="a01749887@tec.mx">santiago</maintainer>
   <license>TODO: License declaration</license>
 
+  <depend>rclpy</depend>
   <depend>std_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
