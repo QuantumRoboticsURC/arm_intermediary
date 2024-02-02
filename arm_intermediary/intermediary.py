@@ -36,7 +36,7 @@ class Intermediary_Arm(Node):
     def callbackjoint2(self,data):
         in2=float(data.data)
         datos=Float64()
-        datos.data=self.operation_joint1(in2)
+        datos.data=self.operation_joint2(in2)
         self.publisher_joint2.publish(datos)
         
     def callbackemergency(self,data):
